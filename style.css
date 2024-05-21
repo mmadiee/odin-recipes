@@ -4,12 +4,13 @@ body {
 }
 
 .title {
-    text-align: center;
     height: 100px;
     width: auto;
     font-size: 40px;
     background-color: blanchedalmond;
-    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .list{
@@ -17,4 +18,21 @@ body {
     font-weight: bold;
     background-color: blanchedalmond;
     margin: 50px;
+}
+
+h1, h3, h5, p {
+    text-align: center;
+}
+
+
+img, ul, ol {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
